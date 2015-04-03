@@ -1,0 +1,21 @@
+<div class="row">
+    <div class="col-md-12">
+        <a class="btn btn-primary" style="margin-top: 20px; margin-bottom: 20px" id="back">Back to participants</a>
+    </div>
+    
+    <input type="hidden" id="usersInfos" value="{{#each users}}{{@key}}{{/each}}">
+
+    {{#each users}}
+    <div class="col-md-12" style="margin-bottom: 80px;">
+        <h1>{{@key}}</h1>
+
+        <hr>
+    </div>
+    {{/each}}
+
+    <div class="col-md-12" style="margin-bottom: 80px;">
+        <input type="date" id="dateChange" class="pull-right">
+        <h4>Votes</h4>
+        <div id="statsContainer"></div>
+    </div>
+</div>

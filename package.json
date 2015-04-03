@@ -1,0 +1,16 @@
+{
+  "name": "HETIC-WORKSHOP",
+  "version": "1.0.0",
+  "description": "HETIC WORKSHOP",
+  "main": ".",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-serve": "^0.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HETIC",
+  "license": "MIT"
+}

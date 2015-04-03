@@ -1,0 +1,16 @@
+<div class="row">
+    {{#each users}}
+    <div class="col-md-4" style="margin-bottom: 80px;">
+        <h2>
+            {{username}}
+            <small class="pull-right" style="padding-top: 8px">{{votes}} votes</small>
+        </h2>
+        <p>
+            <img src="https://fubiz.surfacecc.com/media/creations/{{oeuvre_id}}.jpg" style="width: 100%">
+        </p>
+        <p>
+            <a class="btn btn-default pull-right" data-infos="{{username}}" role="button">More infos &raquo;</a>
+        </p>
+    </div>
+    {{/each}}
+</div>
